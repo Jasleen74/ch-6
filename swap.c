@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 
-void swap (int *a , int *b ){
-    int temp ;
-    temp = *a;
+void swap (int *a , int *b ){  
+    int temp ;  // Temp is just a temporary int for storing the value of a 
+    temp = *a;          
     *a = *b ;
     *b = temp;
 }
